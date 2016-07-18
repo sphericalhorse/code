@@ -215,10 +215,6 @@ int main(int argc, char ** argv) {
 
 
 
-		// hash_item * item = hash_read(hash_tab, hash_size, key);
-		// printf("%s: %s\n", item->key, item->value);
-
-
 	}
 
 	return 0;
