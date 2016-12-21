@@ -1,0 +1,9 @@
+Vagrant.configure(2) do |config|
+	config.ssh.username = 'box_username'
+	config.ssh.private_key_path = '/path/to/id_rsa.templalte'
+
+	config.vm.box = 'file:///path/to.box'
+	config.vm.provider 'libvirt' do |provider|
+		provider.memory = 4096
+	end
+end
