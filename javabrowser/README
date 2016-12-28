@@ -1,0 +1,7 @@
+Made by this instruction (section 2):
+http://askubuntu.com/a/623397
+
+Requires packages:
+libgtk-3-0:i386
+libdbus-glib-1-2:i386
+libxtst6:i386
